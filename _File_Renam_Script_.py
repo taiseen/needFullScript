@@ -1,12 +1,14 @@
-#04 - March - 2021 
+# 04 - March - 2021 
+
+# python _File_Renam_Script_.py
 
 import os
 
 path = '.'
 count = 0
 
-file_formate = ''
-present_string = ''
+file_formate = '.txt'
+present_string = 'Text Document'
 new_string = ''
 
 for file in os.listdir(path):
@@ -19,6 +21,10 @@ for file in os.listdir(path):
 
 print("Total File : ", count)
 
+
 if count == 0:
     print("No file has been found")
-    
+
+
+# END of Script
+# Thank You! :)
